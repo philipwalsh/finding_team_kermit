@@ -1,8 +1,6 @@
 # Finding Kermit
 
-I thought it would be fun to build a binary image classifier  
-
-So I did
+Binary image classification with Tensorflow 2.0
 
 **The Goal**
 
