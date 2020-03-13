@@ -54,15 +54,30 @@ I saved that best model via the checkpoint call back and reloaded that model for
 
 
 If I set the my threshold at 50%
+
 ![threshold at 50%](images/readme/threshold_50.JPG)
 
 I was pleasantly surprised at how well the model performed.
 
 ![classification report at > 50%](images/readme/class_report.JPG)
 
+A precision on class 1 (Kermit) of 93%!
 
+My diagonals look great and only 2 not-kermit identified as yes-kermit.
 
-If i ratchet up the threshold to 95% I only increase my class 1 precision to .94
+If i ratchet up the threshold to 95% I do increase my class 1 precision to .94
+
+![threshold at 50%](images/readme/threshold_95.JPG)
+
+I don't get much of a precision bump.  From 93% to 94%
+
+![classification report at > 50%](images/readme/class_report_95.JPG)
+
+And I loose a lot on recall.  Meaning a lot of kermits slip through my grasp.  
+Looking at the confusion matrix, 8 yes-kermit(class 1) were incorrectly classified as no-kermit(class 0)
+
+so for me, I would take the 50% threshold in this situation.  I get more kermit pics properly identified with not too much of a penalty in the way of non-kermits classified as yes-kermit.
+
 
 
 
