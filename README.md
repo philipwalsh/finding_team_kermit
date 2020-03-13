@@ -65,7 +65,7 @@ A precision on class 1 (Kermit) of 93%!
 
 My diagonals look great and only 2 no-kermit identified as yes-kermit.
 
-If i ratchet up the threshold to 95% I increase my class only 1 precision to 94%
+If i ratchet up the threshold to 95% ...
 
 ![threshold at 50%](images/readme/threshold_95.JPG)
 
