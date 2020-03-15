@@ -73,7 +73,7 @@ I don't get much of a precision bump,  93% goes to to 94%
 
 ![classification report at > 50%](images/readme/class_report_95.JPG)
 
-but I loose a lot on recall from 100% to 68%.  Meaning a lot of kermits slip through my grasp.
+but I lose a lot on recall from 100% to 68%.  Meaning a lot of kermits slip through my grasp.
 Looking at the confusion matrix, 8 yes-kermit(class 1) were incorrectly classified as no-kermit(class 0)
 
 so for me, I prefer the 50% threshold in this situation.  I get more kermit pics properly identified with not too much of a penalty in the way of non-kermits classified as yes-kermit.
